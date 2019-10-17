@@ -1,4 +1,5 @@
-import FlatBush = require("flatbush")
+import FlatBush_mod = require("flatbush")
+const FlatBush = FlatBush_mod.default
 
 import {Rect} from "../types"
 import {empty} from "./bbox"
